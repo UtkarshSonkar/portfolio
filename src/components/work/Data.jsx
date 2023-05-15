@@ -6,7 +6,7 @@ import bookscart from "../../assets/bookscart.jpg";
 import tablebooking from "../../assets/tablebooking.png";
 import weatherapi from "../../assets/weatherapi.png";
 import Dashboard from "../../assets/Dashboard.png";
-import SearchImage from "../../assets/optimized-searching-images.png";
+import SearchImage from "../../assets/optimized-searching-image2.png";
 
 export const projectsData = [
   {
