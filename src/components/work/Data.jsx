@@ -6,6 +6,7 @@ import bookscart from "../../assets/bookscart.jpg";
 import tablebooking from "../../assets/tablebooking.png";
 import weatherapi from "../../assets/weatherapi.png";
 import Dashboard from "../../assets/Dashboard.png";
+import SearchImage from "../../assets/optimized-searching-images.png";
 
 export const projectsData = [
   {
@@ -28,6 +29,15 @@ export const projectsData = [
   },
   {
     id: 3,
+    image: SearchImage,
+    title: "Optimized-searching-images",
+    category: "frontend",
+    url: "https://github.com/UtkarshSonkar/Optimized-search-application",
+    skills: "React, TypeScript, CSS, APIs",
+    demo: "https://optimized-search-application.vercel.app/",
+  },
+  {
+    id: 4,
     image: chatapp,
     title: "Chatting Application",
     category: "backend",
@@ -36,7 +46,7 @@ export const projectsData = [
     demo: "https://chat-app-ztgd.onrender.com",
   },
   {
-    id: 4,
+    id: 5,
     image: taskmanager,
     title: "Task Manager",
     category: "backend",
@@ -44,7 +54,7 @@ export const projectsData = [
     skills: "Nodejs, JavaScript, MongoDB, Express",
   },
   {
-    id: 5,
+    id: 6,
     image: openapi,
     title: "Openapi-To-ZodSchema converter",
     category: "frontend",
@@ -52,7 +62,7 @@ export const projectsData = [
     skills: "TypeScript, OpenAPI",
   },
   {
-    id: 6,
+    id: 7,
     image: bookscart,
     title: "BooksCart App",
     category: "projects",
@@ -60,7 +70,7 @@ export const projectsData = [
     skills: "React, TypeScript, Redux",
   },
   {
-    id: 7,
+    id: 8,
     image: tablebooking,
     title: "Table Booking",
     category: "projects",
@@ -68,7 +78,7 @@ export const projectsData = [
     skills: "React, Redux",
   },
   {
-    id: 8,
+    id: 9,
     image: weatherapi,
     title: "Live Weather Application",
     category: "projects",
