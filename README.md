@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This repository contains the code and assets for my personal portfolio website. The purpose of this website is to showcase my projects, skills, and experience as a software engineer.
+This repository contains the code and assets for my personal portfolio website. The purpose of this website is to showcase my projects, skills, and experience as a software engineer. [utkarsh-sonkar_portfolio](https://portfolio-utkarsh-sonkar.netlify.app/)
 
 ## Technologies Used
 
