@@ -7,10 +7,20 @@ import tablebooking from "../../assets/tablebooking.png";
 import weatherapi from "../../assets/weatherapi.png";
 import Dashboard from "../../assets/Dashboard.png";
 import SearchImage from "../../assets/optimized-searching-image2.png";
+import jsscribbleImage from "../../assets/jsscribble.png";
 
 export const projectsData = [
   {
     id: 1,
+    image: jsscribbleImage,
+    title: "JS Runtime code editor (js-scribble)",
+    category: "frontend",
+    url: "https://github.com/UtkarshSonkar/js-scribble",
+    skills: "React, Redux, Typescript, CLI, NPM, Lerna, ",
+    demo: "https://www.npmjs.com/package/js-scribble",
+  },
+  {
+    id: 2,
     image: Dashboard,
     title: "Company Dashboard",
     category: "frontend",
@@ -19,7 +29,7 @@ export const projectsData = [
     demo: "https://company-dashboard-frontend.onrender.com",
   },
   {
-    id: 2,
+    id: 3,
     image: Fitness,
     title: "Fitness Application",
     category: "frontend",
@@ -28,7 +38,7 @@ export const projectsData = [
     demo: "https://2ad36b25.gym-typescript-react.pages.dev/",
   },
   {
-    id: 3,
+    id: 4,
     image: SearchImage,
     title: "Optimized-searching-images",
     category: "frontend",
@@ -37,7 +47,7 @@ export const projectsData = [
     demo: "https://optimized-search-application.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: chatapp,
     title: "Chatting Application",
     category: "backend",
@@ -46,7 +56,7 @@ export const projectsData = [
     demo: "https://chat-app-ztgd.onrender.com",
   },
   {
-    id: 5,
+    id: 6,
     image: taskmanager,
     title: "Task Manager",
     category: "backend",
@@ -54,7 +64,7 @@ export const projectsData = [
     skills: "Nodejs, JavaScript, MongoDB, Express",
   },
   {
-    id: 6,
+    id: 7,
     image: openapi,
     title: "Openapi-To-ZodSchema converter",
     category: "frontend",
@@ -62,7 +72,7 @@ export const projectsData = [
     skills: "TypeScript, OpenAPI",
   },
   {
-    id: 7,
+    id: 8,
     image: bookscart,
     title: "BooksCart App",
     category: "projects",
@@ -70,7 +80,7 @@ export const projectsData = [
     skills: "React, TypeScript, Redux",
   },
   {
-    id: 8,
+    id: 9,
     image: tablebooking,
     title: "Table Booking",
     category: "projects",
@@ -78,7 +88,7 @@ export const projectsData = [
     skills: "React, Redux",
   },
   {
-    id: 9,
+    id: 10,
     image: weatherapi,
     title: "Live Weather Application",
     category: "projects",

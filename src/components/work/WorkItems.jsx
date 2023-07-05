@@ -15,8 +15,8 @@ const WorkItems = ({ item }) => {
         <a href={item.url} className="work__url">
           Github
         </a>
-        <a href={item.demo} className="work__link">
-          {item.demo ? "Demo" : ""}
+        <a href={item.demo} className="work__link ">
+          {item.demo ? "DEMO" : ""}
         </a>
         {/* <i className="bx bx-right-arrow-alt work__button-icon"></i> */}
       </div>
