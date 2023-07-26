@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import myprofile3 from "../../assets/myprofile3.jpeg";
 import Info from "./Info";
+import { motion } from "framer-motion";
 //import CV from "../../assets/utkarshsonkar_resume-1.pdf";
 
 const About = () => {
@@ -20,10 +21,12 @@ const About = () => {
             believe it or not! ;{")"}
           </p>
 
-          <a
+          <motion.a
             download=""
             href="https://drive.google.com/file/d/1pa78xB5QrzFpZka13kLdhnGy9VUNzire/view?usp=share_link"
             className="button button--flex"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.0 }}
           >
             Resume
             <svg
@@ -51,7 +54,7 @@ const About = () => {
                 fill="var(--container-color)"
               ></path>
             </svg>
-          </a>
+          </motion.a>
         </div>
       </div>
     </section>

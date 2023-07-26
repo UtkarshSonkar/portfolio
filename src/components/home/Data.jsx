@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Data = () => {
   return (
@@ -60,7 +61,12 @@ const Data = () => {
         I'm passionate about building cutting edge, high quality code written
         websites. Still learning and exploring what I do.
       </p>
-      <a href="#contact" className="button button--flex">
+      <motion.a
+        href="#contact"
+        className="button button--flex"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 1.0 }}
+      >
         Say Hello
         <svg
           class="button__icon"
@@ -79,7 +85,7 @@ const Data = () => {
             fill="var(--container-color)"
           ></path>
         </svg>
-      </a>
+      </motion.a>
     </div>
   );
 };

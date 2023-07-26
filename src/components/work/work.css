@@ -73,11 +73,17 @@
 }
 .work__url {
   font-size: var(--smaller-font-size);
-  color: var(--title-color);
+  color: var(--text-color);
+}
+.work__url:hover {
+  color: var(--title-color-dark);
 }
 .work__link {
   font-size: var(--smaller-font-size);
-  color: var(--title-color);
+  color: var(--text-color);
+}
+.work__link:hover {
+  color: var(--title-color-dark);
 }
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

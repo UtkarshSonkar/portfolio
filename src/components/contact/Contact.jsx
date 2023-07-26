@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const form = useRef();
@@ -89,7 +90,11 @@ const Contact = () => {
                 placeholder="Message"
               ></textarea>
             </div>
-            <button className="button button--flex">
+            <motion.button
+              className="button button--flex"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 1.0 }}
+            >
               Send Message
               <svg
                 class="button__icon"
@@ -108,7 +113,7 @@ const Contact = () => {
                   fill="var(--container-color)"
                 ></path>
               </svg>
-            </button>
+            </motion.button>
           </form>
         </div>
       </div>

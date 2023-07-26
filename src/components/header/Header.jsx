@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import "./header.css";
+import { motion, useScroll } from "framer-motion";
 
 const Header = () => {
   const [Toggle, showMenu] = useState(false);
 
+  const { scrollYProgress } = useScroll();
   return (
     <header className="header">
+      <motion.div
+        className="progress__bar"
+        style={{ scaleX: scrollYProgress }}
+      />
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
           Utkarsh

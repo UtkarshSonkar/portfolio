@@ -225,3 +225,6 @@ img {
     margin-right: var(--mb-1);
   }
 }
+.scroll-bar {
+  z-index: 10;
+}

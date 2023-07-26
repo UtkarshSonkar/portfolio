@@ -10,12 +10,12 @@ const Works = () => {
 
   useEffect(() => {
     if (item.name === "all") {
-      setProjects(projectsData);
+      setProjects([...projectsData]);
     } else {
       const newProjects = projectsData.filter((project) => {
         return project.category.toLowerCase() === item.name;
       });
-      setProjects(newProjects);
+      setProjects([...newProjects]);
     }
   }, [item]);
 
